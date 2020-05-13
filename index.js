@@ -5,6 +5,10 @@ const fs = require('fs');
 const commandExists = require('command-exists');
 
 const managers = {
+    "apt": {
+        "check": "apt",
+        "command": "sudo apt update && sudo apt install"
+    },
     "apt-get": {
         "check": "apt-get",
         "command": "sudo apt-get update && sudo apt-get install"
