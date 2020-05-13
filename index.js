@@ -24,9 +24,7 @@ const managers = {
 };
 
 try {
-
-    var pkgs;
-
+    let pkgs;
     for (let [mgr, info] of Object.entries(managers)) {
         if (commandExists.sync(info.check)) {
             pkgs = core.getInput(mgr);
@@ -35,7 +33,6 @@ try {
             }
         }
     }
-
 } catch (error) {
     core.setFailed(error.message);
 }
