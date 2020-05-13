@@ -1,4 +1,4 @@
-get-package
+GetPackage++
 ===========
 
 Download and install packages using OS package manager

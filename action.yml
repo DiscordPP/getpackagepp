@@ -1,4 +1,4 @@
-name: 'Get Package++'
+name: 'GetPackagePP'
 description: 'Install packages from OS package manager'
 author: UndarkAido
 inputs:

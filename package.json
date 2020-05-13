@@ -1,5 +1,5 @@
 {
-  "name": "get-packagepp",
+  "name": "getpackagepp",
   "version": "1.0.0",
   "description": "github action for setting up package from OS package managers",
   "dependencies": {
@@ -21,6 +21,7 @@
     "apt-get",
     "brew"
   ],
-  "author": "jle",
+  "author": "UndarkAido",
+  "contributors": ["jle"],
   "license": "ISC"
 }
