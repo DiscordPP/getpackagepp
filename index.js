@@ -1,7 +1,5 @@
 const core = require('@actions/core');
-const github = require('@actions/github');
 const child_process = require('child_process');
-const fs = require('fs');
 const commandExists = require('command-exists');
 
 const managers = {
