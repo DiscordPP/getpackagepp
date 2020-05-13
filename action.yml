@@ -1,7 +1,12 @@
 name: 'Get Package'
 description: 'Install packages from OS package manager'
-author: Justin Le
+author: Justin Le, UndarkAido
 inputs:
+  apt:
+    description: |
+      Space-separated list of packages to install using apt.  Will
+      only run if on ubuntu.
+    required: false
   apt-get:
     description: |
       Space-separated list of packages to install using apt-get.  Will
@@ -11,6 +16,11 @@ inputs:
     description: |
       Space-separated list of packages to install using brew install.  Will
       only run if on OSX.
+    required: false
+  vcpkg:
+    description: |
+      Space-separated list of packages to install using vcpkg install.  Will
+      only run if on Windows.
     required: false
 branding:
   icon: arrow-down
