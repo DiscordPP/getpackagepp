@@ -1,7 +1,7 @@
 {
   "name": "getpackagepp",
   "version": "1.0.0",
-  "description": "github action for setting up package from OS package managers",
+  "description": "GitHub action for setting up packages with the OS package manager",
   "dependencies": {
     "@actions/core": "1.2.4",
     "command-exists": "1.2.9"
