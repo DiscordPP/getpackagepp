@@ -16,6 +16,10 @@ const managers = {
     "brew": {
         "check": "brew",
         "command": "brew update && brew install"
+    },
+    "vcpkg": {
+        "check": "vcpkg",
+        "command": "vcpkg update && vcpkg install"
     }
 };
 
