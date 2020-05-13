@@ -2,15 +2,15 @@ name: 'Get Package'
 description: 'Install packages from OS package manager'
 author: Justin Le
 inputs:
-  brew:
-    description: |
-      Space-separated list of packages to install using brew install.  Will
-      only run if on OSX.
-    required: false
   apt-get:
     description: |
       Space-separated list of packages to install using apt-get.  Will
       only run if on ubuntu.
+    required: false
+  brew:
+    description: |
+      Space-separated list of packages to install using brew install.  Will
+      only run if on OSX.
     required: false
 branding:
   icon: arrow-down
