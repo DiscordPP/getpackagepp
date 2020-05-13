@@ -1,5 +1,5 @@
 {
-  "name": "get-package",
+  "name": "get-packagepp",
   "version": "1.0.0",
   "description": "github action for setting up package from OS package managers",
   "dependencies": {
